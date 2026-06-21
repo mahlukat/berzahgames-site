@@ -1626,12 +1626,23 @@ address a {
     min-height: 500px;
   }
 
+  .vr-video-panel {
+    order: 1;
+  }
+
   .vr-card-row {
+    order: 2;
     display: flex;
     gap: 12px;
     justify-content: center;
     overflow-x: visible;
     padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  .vr-copy-panel {
+    order: 3;
   }
 
   .vr-card {
