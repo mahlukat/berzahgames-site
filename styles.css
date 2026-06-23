@@ -318,39 +318,11 @@ body.is-rtl .contact-form .button {
   transform: scale(1.03);
 }
 
-.hero-media::before,
-.hero-media::after,
 .hero-fx,
 .fx-layer {
   position: absolute;
   inset: 0;
   pointer-events: none;
-}
-
-.hero-media::before {
-  background:
-    linear-gradient(90deg, rgba(242, 59, 125, 0.18), rgba(57, 198, 192, 0.08)),
-    url("assets/backgrounds/DSC_1368_1_oklu.jpg") center / cover;
-  clip-path: inset(14% 0 72% 0);
-  content: "";
-  mix-blend-mode: screen;
-  opacity: 0;
-  transform: translate3d(0, 0, 0) scale(1.04);
-  animation: heroGlitch 6.4s steps(1, end) 0.8s infinite;
-}
-
-.hero-media::after {
-  background:
-    repeating-linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.045) 0 0.5px,
-      rgba(255, 255, 255, 0) 0.5px 3px
-    ),
-    linear-gradient(90deg, rgba(57, 198, 192, 0.08), rgba(242, 59, 125, 0.08));
-  content: "";
-  opacity: 0.22;
-  mix-blend-mode: overlay;
-  animation: scanlines 10s linear infinite;
 }
 
 .hero-fx {
