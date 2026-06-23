@@ -318,8 +318,9 @@ const uiText = {
   en: {
     navServices: "Services",
     navGames: "Games",
+    navAssets: "Game Assets",
     navReferences: "References",
-    navStudio: "Studio",
+    navOtherWorks: "Other Works",
     navContact: "Contact",
     heroEyebrow: "Independent studio in Ankara",
     heroTitle: "B2B solutions, VR training and real-time simulation software.",
@@ -390,7 +391,7 @@ const uiText = {
 };
 
 uiText.tr = {
-  navServices: "Hizmetler", navGames: "Oyunlar", navReferences: "Referanslar", navStudio: "Stüdyo", navContact: "İletişim",
+  navServices: "Hizmetler", navGames: "Oyunlar", navAssets: "Oyun Assetleri", navReferences: "Referanslar", navOtherWorks: "Diğer İşler", navContact: "İletişim",
   heroEyebrow: "Ankara merkezli bağımsız stüdyo", heroTitle: "B2B çözümler, VR eğitim ve gerçek zamanlı simülasyon yazılımları.", heroCopy: "Kurumlar ve teknoloji ortakları için ciddi oyunlar, medikal VR, simülasyonlar, 3D assetler ve gerçek zamanlı interaktif yazılımlar.", exploreWork: "İşleri incele", startProject: "Proje başlat",
   assetFrames: "Fab pazar yeri paketlerinden seçilmiş oyun asset kareleri", introSummary: "Oyun yapma sanatı: zanaat, teknoloji ve uygulamalı yazılımın buluştuğu sanal deneyimler üretiyoruz. 2019'da kurulan Berzah Games; multidisipliner sanatçıları, geliştiricileri ve teknik üreticileri bir araya getirir.", introEyebrow: "Oyun yapma sanatı", introTitle: "Zanaat, teknoloji ve uygulamalı yazılımın buluştuğu sanal deneyimler üretiyoruz.", introCopy: "2019'da kurulan Berzah Games; multidisipliner sanatçıları, geliştiricileri ve teknik üreticileri bir araya getirir. Stüdyo; özgün IP, B2B simülasyon projeleri, VR eğitim yazılımları ve gerçek zamanlı motorlar için görsel üretim alanlarında çalışır.",
   servicesEyebrow: "Hizmetler", servicesTitle: "Ciddi oyun, VR, simülasyon ve gerçek zamanlı eğitim yazılımları için B2B çözümler.", service1Title: "B2B Çözümler ve Ciddi Oyunlar", service1Copy: "Şirketler ve kurumlar için eğitim odaklı oyunlar, ciddi oyun sistemleri, prototipler ve interaktif çözümler.", service2Title: "Medikal VR Çözümleri", service2Copy: "Medikal eğitim, görselleştirme ve prosedür odaklı interaktif öğrenme için VR deneyimleri.", service3Title: "Eğitim Simülasyonları", service3Copy: "Senaryo tabanlı eğitim simülasyonları, öğrenme modülleri ve yönlendirmeli interaktif eğitim yazılımları.", service4Title: "Askeri Simülasyonlar", service4Copy: "Gerçek zamanlı simülasyon arayüzleri, görev senaryoları ve teknik eğitim ortamları.", service5Title: "Eğitim Yazılımları", service5Copy: "Tekrarlanabilir pratik ve ölçülebilir iş akışları için masaüstü, VR ve gerçek zamanlı eğitim yazılımları.", service6Title: "3D Asset Üretimi", service6Copy: "Oyun uyumlu ortamlar, modüler asset paketleri, objeler, araçlar ve Unreal Engine üretim desteği.",
@@ -401,7 +402,7 @@ uiText.tr = {
 };
 
 uiText.ar = {
-  navServices: "الخدمات", navGames: "الألعاب", navReferences: "المراجع", navStudio: "الاستوديو", navContact: "تواصل",
+  navServices: "الخدمات", navGames: "الألعاب", navAssets: "أصول الألعاب", navReferences: "المراجع", navOtherWorks: "أعمال أخرى", navContact: "تواصل",
   heroEyebrow: "استوديو مستقل في أنقرة", heroTitle: "حلول B2B وتدريب VR وبرمجيات محاكاة فورية.", heroCopy: "ألعاب جادة وحلول VR طبية ومحاكاة وأصول ثلاثية الأبعاد وبرمجيات تفاعلية فورية للمؤسسات وشركاء التكنولوجيا.", exploreWork: "استعرض الأعمال", startProject: "ابدأ مشروعاً",
   assetFrames: "لقطات مختارة من حزم أصول الألعاب على Fab", introSummary: "فن صناعة الألعاب: نبني تجارب افتراضية تجمع بين الحرفة والتكنولوجيا والبرمجيات التطبيقية. منذ 2019 يجمع Berzah Games فنانين ومطورين ومنتجين تقنيين متعددي التخصصات.", introEyebrow: "فن صناعة الألعاب", introTitle: "نبني تجارب افتراضية تجمع بين الحرفة والتكنولوجيا والبرمجيات التطبيقية.", introCopy: "منذ 2019 يجمع Berzah Games فنانين ومطورين ومنتجين تقنيين متعددي التخصصات، ويعمل على الملكيات الأصلية ومشاريع المحاكاة B2B وتدريب VR والإنتاج البصري لمحركات الوقت الحقيقي.",
   servicesEyebrow: "الخدمات", servicesTitle: "حلول B2B للألعاب الجادة وVR والمحاكاة وبرمجيات التدريب الفورية.", service1Title: "حلول B2B وألعاب جادة", service1Copy: "ألعاب تدريبية وأنظمة ألعاب جادة ونماذج أولية وحلول تفاعلية للشركات والمؤسسات.", service2Title: "حلول VR طبية", service2Copy: "تجارب VR للتدريب الطبي والتصور والتعلم التفاعلي الإجرائي.", service3Title: "محاكاة تعليمية", service3Copy: "محاكاة تدريب مبنية على السيناريوهات ووحدات تعلم وبرمجيات تعليمية تفاعلية.", service4Title: "محاكاة عسكرية", service4Copy: "واجهات محاكاة فورية وسيناريوهات مهام وبيئات تدريب تقنية.", service5Title: "برمجيات تدريب", service5Copy: "برمجيات تدريب مكتبية وVR وفورية للممارسة القابلة للتكرار وسير العمل القابل للقياس.", service6Title: "إنتاج أصول 3D", service6Copy: "بيئات جاهزة للألعاب وحزم أصول معيارية وعناصر ومركبات ودعم إنتاج Unreal Engine.",
@@ -412,7 +413,7 @@ uiText.ar = {
 };
 
 uiText.zh = {
-  navServices: "服务", navGames: "游戏", navReferences: "客户", navStudio: "工作室", navContact: "联系",
+  navServices: "服务", navGames: "游戏", navAssets: "游戏资产", navReferences: "客户", navOtherWorks: "其他作品", navContact: "联系",
   heroEyebrow: "位于安卡拉的独立工作室", heroTitle: "B2B 解决方案、VR 培训与实时仿真软件。", heroCopy: "为机构和技术伙伴制作严肃游戏、医疗 VR、仿真、3D 资产与实时交互软件。", exploreWork: "查看作品", startProject: "启动项目",
   assetFrames: "Fab 市场游戏资产包精选画面", introSummary: "游戏制作的艺术：我们打造融合工艺、技术与应用软件的虚拟体验。Berzah Games 成立于 2019 年，汇集跨领域艺术家、开发者和技术创作者。", introEyebrow: "游戏制作的艺术", introTitle: "我们打造融合工艺、技术与应用软件的虚拟体验。", introCopy: "Berzah Games 成立于 2019 年，汇集跨领域艺术家、开发者和技术创作者，业务涵盖原创 IP、B2B 仿真、VR 培训软件以及实时引擎视觉制作。",
   servicesEyebrow: "服务", servicesTitle: "面向严肃游戏、VR、仿真和实时培训软件的 B2B 解决方案。", service1Title: "B2B 解决方案与严肃游戏", service1Copy: "为企业和机构制作培训导向游戏、严肃游戏系统、原型和互动解决方案。", service2Title: "医疗 VR 解决方案", service2Copy: "用于医疗培训、可视化和流程学习的 VR 互动体验。", service3Title: "教育仿真", service3Copy: "基于场景的培训仿真、学习模块和引导式互动教育软件。", service4Title: "军事仿真", service4Copy: "实时仿真界面、任务场景和技术训练环境。", service5Title: "培训软件", service5Copy: "用于可重复练习和可衡量流程的桌面、VR 与实时培训软件。", service6Title: "3D 资产制作", service6Copy: "游戏就绪环境、模块化资产包、道具、车辆和 Unreal Engine 制作支持。",
@@ -423,7 +424,7 @@ uiText.zh = {
 };
 
 uiText.ru = {
-  navServices: "Услуги", navGames: "Игры", navReferences: "Референсы", navStudio: "Студия", navContact: "Контакты",
+  navServices: "Услуги", navGames: "Игры", navAssets: "Игровые ассеты", navReferences: "Референсы", navOtherWorks: "Другие работы", navContact: "Контакты",
   heroEyebrow: "Независимая студия в Анкаре", heroTitle: "B2B-решения, VR-обучение и ПО для симуляций в реальном времени.", heroCopy: "Serious games, медицинский VR, симуляции, 3D-ассеты и интерактивное ПО для организаций и технологических партнеров.", exploreWork: "Смотреть работы", startProject: "Начать проект",
   assetFrames: "Избранные кадры игровых ассетов из пакетов Fab", introSummary: "Искусство создания игр: мы создаем виртуальные впечатления на стыке ремесла, технологий и прикладного ПО. Berzah Games основана в 2019 году и объединяет мультидисциплинарных художников, разработчиков и технических авторов.", introEyebrow: "Искусство создания игр", introTitle: "Мы создаем виртуальные впечатления на стыке ремесла, технологий и прикладного ПО.", introCopy: "Berzah Games основана в 2019 году и объединяет мультидисциплинарных художников, разработчиков и технических авторов. Студия работает с оригинальными IP, B2B-симуляциями, VR-обучением и визуальным производством для real-time движков.",
   servicesEyebrow: "Услуги", servicesTitle: "B2B-решения для serious games, VR, симуляций и real-time обучающего ПО.", service1Title: "B2B-решения и serious games", service1Copy: "Обучающие игры, serious game системы, прототипы и интерактивные решения для компаний и организаций.", service2Title: "Медицинские VR-решения", service2Copy: "VR-опыт для медицинского обучения, визуализации и процедурного интерактивного обучения.", service3Title: "Образовательные симуляции", service3Copy: "Сценарные обучающие симуляции, учебные модули и интерактивное ПО.", service4Title: "Военные симуляции", service4Copy: "Real-time интерфейсы симуляции, миссионные сценарии и технические обучающие среды.", service5Title: "Обучающее ПО", service5Copy: "Десктопное, VR и real-time ПО для повторяемой практики и измеримых процессов.", service6Title: "Производство 3D-ассетов", service6Copy: "Игровые окружения, модульные ассет-паки, пропсы, транспорт и поддержка Unreal Engine.",
@@ -510,9 +511,10 @@ const applyStaticTranslations = () => {
   const navSelectors = [
     [".primary-nav a:nth-child(1)", "navServices"],
     [".primary-nav a:nth-child(2)", "navGames"],
-    [".primary-nav a:nth-child(3)", "navReferences"],
-    [".primary-nav a:nth-child(4)", "navStudio"],
-    [".primary-nav a:nth-child(5)", "navContact"],
+    [".primary-nav a:nth-child(3)", "navAssets"],
+    [".primary-nav a:nth-child(4)", "navReferences"],
+    [".primary-nav a:nth-child(5)", "navOtherWorks"],
+    [".primary-nav a:nth-child(6)", "navContact"],
   ];
 
   navSelectors.forEach(([selector, key]) => setText(selector, t(key)));
