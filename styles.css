@@ -312,10 +312,7 @@ body.is-rtl .contact-form .button {
   inset: 0;
   z-index: -2;
   background:
-    linear-gradient(90deg, rgba(16, 16, 16, 0.8) 0%, rgba(16, 16, 16, 0.4) 54%, rgba(16, 16, 16, 0.76) 100%),
-    url("assets/backgrounds/DSC_1368_1_oklu.jpg") center / cover;
-  filter: grayscale(100%);
-  transform: scale(1.03);
+    linear-gradient(90deg, rgba(16, 16, 16, 0.48) 0%, rgba(16, 16, 16, 0.14) 54%, rgba(16, 16, 16, 0.5) 100%);
 }
 
 .hero-fx,
